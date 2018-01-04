@@ -7,6 +7,9 @@
     "parserOptions": {
         "sourceType": "module"
     },
+    "plugins": [
+        "mocha"
+    ],
     "rules": {
         "indent": [
             "error",
@@ -23,6 +26,7 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "mocha/no-exclusive-tests": "error"
     }
 }
